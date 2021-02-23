@@ -1,0 +1,283 @@
+
+body{
+  font-family: 'MetropolisRegular';
+}
+.navbar-top{
+  background-color: lightgrey;
+}
+.navbar-bottom{
+  background-color: white;
+}
+.navbar-brand{
+  margin-right: 0;
+}
+.navbar-light .navbar-nav .nav-link{
+  color: black;
+}
+.navbar-top .collapse .navbar-nav .nav-item:last-child{
+  border-left: 1px solid grey;
+}
+.nav-right{
+  list-style: none;
+}
+.nav-right li{
+  display: inline-block;
+}
+#white-btn{
+  background-color: white;
+  border: 1px solid red;
+  color: red;
+}
+.btn{
+  background-color: red;
+  color: white;
+  border: 1px solid red;
+}
+.navbar-bottom .navbar-brand img{
+  width: 100px;
+  height: auto;
+}
+.navbar-bottom .navbar {
+  background-color: white;
+}
+.navbar-bottom .brand img{
+  width: 150px;
+}
+.navbar-bottom ul li a{
+  color: #253c69;
+}
+.jumbotron{
+  position: relative;
+  height: 600px;
+  background-image: url("../img/jumbotron.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  margin-bottom: 0;
+
+}
+.linea{
+  background-color: #5bebc9;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 75px;
+  width: 100%;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  display: block;
+}
+.clearfix{
+  clear: both;
+
+}
+#s2{
+  background-color: #e6e7eb;
+}
+.cube img{
+  width: 150px;
+}
+.main-img{
+  width: 150px;
+
+}
+.box-img{
+  width: 100%;
+  height: 100px;
+  margin-top: 10px;
+}
+.box-img img{
+  height: 100px;
+}
+.card{
+  margin: 30px 0;
+  box-shadow: 0 0 2px 2px lightgrey;
+}
+.card-deck{
+  margin-bottom: 30px;
+}
+.card-deck .card{
+  width: 18rem;
+}
+.card-deck .card-title{
+  padding-bottom: 20px;
+}
+.card-deck .card-text{
+  padding-bottom: 50px;
+}
+.card i{
+  color: red;
+}
+.card ul{
+  padding-left: 0;
+}
+.card ul li i{
+  margin-right: 20px;
+}
+hr{
+  border-top: 2px solid rgba(0,0,0,.4);
+}
+.card-body .card-options li{
+  display: inline-block;
+}
+.card-body .card-separation{
+  display: inline-block;
+  background-color: black;
+  width: 300px;
+  margin-left: 10px;
+  border: 1px solid rgba(0,0,0,.4);
+  vertical-align: super;
+}
+.card-options{
+  margin-right: 0;
+}
+.card-body h6{
+  display: inline-block;
+}
+.three .card img{
+  width: 100px;
+}
+.three .card ul{
+  list-style: none;
+}
+.three .card ul li{
+  text-align: left;
+}
+#s3{
+  background-image: linear-gradient(to right, #59afbd, #61c2a5);
+  color: white;
+}
+#s3 h1, #s3 p{
+  margin-bottom: 30px;
+}
+#s3 .col-lg-3 *{
+  margin-top: 20px;
+}
+.table-img{
+  width: 100%;
+  height: 25%;
+}
+.top{
+  border-bottom: 1px solid white;
+}
+.top [class*= "col-"]:not(:last-child){
+  border-right: 1px solid white;
+}
+.bottom [class*="col-l"]:not(:last-child){
+  border-right: 1px solid white;
+}
+.text-box{
+  width: 40%;
+  height: 30%;
+}
+.sponsor-list{
+  list-style: none;
+}
+.sponsor-list li{
+  display: inline-block;
+  width: calc((100% / 4) - 1rem);
+  text-align: center;
+
+}
+.sponsor-list li img{
+  width: 100px;
+
+}
+.woman-commercial img {
+  width: 300px;
+}
+footer{
+  background-color: #18247d;
+}
+footer a{
+  color: lightgrey;
+}
+footer .nav a{
+  padding-left: 0;
+}
+footer .fab{
+  color: lightgrey;
+}
+footer p{
+  color: white;
+}
+footer .languages{
+  width: 70%;
+  margin: 0 auto;
+  justify-content: space-between;
+
+}
+footer .social{
+  padding-left: 0;
+  justify-content: space-between;
+  width: 207px;
+}
+footer hr{
+  background-color: lightgrey;
+}
+footer ul{
+  list-style: none;
+}
+#btn-footer{
+  background-color: lightgrey;
+  color: #18247d;
+  border: 1px solid lightgrey;
+}
+#btn-footer:hover{
+  background-color: grey;
+  color: #18247d;
+  border: 1px solid grey;
+}
+.ending-info a:last-child{
+  margin-left: 20px;
+}
+a:hover{
+  text-decoration: none;
+  }
+@media screen and (max-width: 992px) and (min-width: 769px){
+  .top [class*= "col-"]:not(:last-child){
+    border: none;
+  }
+  .bottom [class*="col-l"]:not(:last-child){
+    border: none;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 576px){
+  .top [class*= "col-"]:not(:last-child){
+    border: none;
+  }
+  .bottom [class*="col-l"]:not(:last-child){
+    border: none;
+  }
+.linea{
+  display: none;
+}
+.sponsor-list li{
+  width: calc((100% / 3) - 1rem);
+}
+}
+@media screen and (max-width: 575px) {
+  .card-deck .card{
+    width: 100%;
+  }
+  .top [class*= "col-"]:not(:last-child){
+    border: none;
+  }
+  .bottom [class*="col-l"]:not(:last-child){
+    border: none;
+  }
+  .linea{
+    display: none;
+  }
+  .sponsor-list li{
+    width: calc((100% / 2) - 1rem);
+  }
+  footer .languages{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .languages li{
+    margin-left: 10px;
+  }
+}
+
